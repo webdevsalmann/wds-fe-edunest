@@ -1,11 +1,11 @@
-import { Rubik, Onest, Sora, Overpass, Be_Vietnam_Pro, Tourney, Epilogue, Josefin_Sans, Karla, Urbanist, Recursive, REM, Figtree, Niramit, Noto_Sans, Cabin, Asap, Archivo, Outfit, Kanit } from 'next/font/google'
+import { Rubik, Onest, Sora, Overpass, Be_Vietnam_Pro, Tourney, Epilogue, Josefin_Sans, Karla, Urbanist, Recursive, REM, Figtree, Niramit, Noto_Sans, Cabin, Asap, Archivo, Outfit, Kanit, Roboto } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/components/context/ThemeProvider';
 import Header from '@/components/layouts/Header';
 import Footer from '@/components/layouts/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
-const rubik = Onest({ subsets: ['latin'] });
+const rubik = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900'], });
 
 export const metadata = {
   title: 'webdevsalmann',
