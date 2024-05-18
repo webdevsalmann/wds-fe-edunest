@@ -10,7 +10,7 @@ export default function About() {
                         <Info />
                     </div>
                     <h2>About EduNest</h2>
-                    <p className="text-muted-foreground text-xl">At EduNest, we believe that learning should be accessible, engaging, and transformative. Our platform is designed to empower individuals to unlock their full potential and achieve their goals through quality education.</p>
+                    <p className="text-muted-foreground text-lg">At EduNest, we believe that learning should be accessible, engaging, and transformative. Our platform is designed to empower individuals to unlock their full potential and achieve their goals through quality education.</p>
                 </div>
                 <div className="flex justify-center">
                     <Image
@@ -29,7 +29,7 @@ export default function About() {
                         <Target />
                     </div>
                     <h2>Our Mission</h2>
-                    <p className="text-muted-foreground">Our mission is to democratize education by providing a platform where learners of all backgrounds can access high-quality courses taught by industry experts. We aim to foster a culture of lifelong learning and skill development to help individuals thrive in an ever-evolving world.</p>
+                    <p className="text-muted-foreground text-lg">Our mission is to democratize education by providing a platform where learners of all backgrounds can access high-quality courses taught by industry experts. We aim to foster a culture of lifelong learning and skill development to help individuals thrive in an ever-evolving world.</p>
                 </div>
                 <div className="flex justify-center md:order-first">
                     <Image
@@ -48,22 +48,20 @@ export default function About() {
                         <PencilRuler />
                     </div>
                     <h2>What Sets Us Apart</h2>
-                    <div className="text-muted-foreground text-xl">
-                        <ul className="text-muted-foreground list-disc list-inside">
-                            <li className="mt-4">
-                                <span className="font-bold text-foreground">Expert Instructors:</span> Our courses are taught by industry professionals, academics, and subject matter experts who bring real-world experience and expertise to the classroom.
-                            </li>
-                            <li className="mt-4">
-                                <span className="font-bold text-foreground">Interactive Learning:</span> We believe in active learning, which is why our courses feature interactive elements such as quizzes, assignments, and discussion forums to enhance engagement and retention.
-                            </li>
-                            <li className="mt-4">
-                                <span className="font-bold text-foreground">Flexibility:</span> We understand that life can be busy, which is why our platform offers flexible learning options. You can access your courses anytime, anywhere, and study at your own pace.
-                            </li>
-                            <li className="mt-4">
-                                <span className="font-bold text-foreground">Continuous Improvement:</span> We are continuously updating and expanding our course offerings to ensure that they remain relevant and aligned with the latest industry trends and advancements.
-                            </li>
-                        </ul>
-                    </div>
+                    <ul className="text-muted-foreground text-lg list-disc list-inside">
+                        <li className="mt-4">
+                            <span className="font-bold text-foreground">Expert Instructors:</span> Our courses are taught by industry professionals, academics, and subject matter experts who bring real-world experience and expertise to the classroom.
+                        </li>
+                        <li className="mt-4">
+                            <span className="font-bold text-foreground">Interactive Learning:</span> We believe in active learning, which is why our courses feature interactive elements such as quizzes, assignments, and discussion forums to enhance engagement and retention.
+                        </li>
+                        <li className="mt-4">
+                            <span className="font-bold text-foreground">Flexibility:</span> We understand that life can be busy, which is why our platform offers flexible learning options. You can access your courses anytime, anywhere, and study at your own pace.
+                        </li>
+                        <li className="mt-4">
+                            <span className="font-bold text-foreground">Continuous Improvement:</span> We are continuously updating and expanding our course offerings to ensure that they remain relevant and aligned with the latest industry trends and advancements.
+                        </li>
+                    </ul>
                 </div>
                 <div className="w-full h-full flex-center aspect-square overflow-hidden">
                     <Image

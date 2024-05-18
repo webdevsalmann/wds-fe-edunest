@@ -14,7 +14,7 @@ export default function Hero() {
                     </p>
                     <div className="mt-6 flex-center gap-4">
                         <Link className={`${buttonVariants()} text-lg`} href="/login">Login Now</Link>
-                        <Link className={`${buttonVariants({ variant: "outline" })} text-lg`} href="/">Browse Courses</Link>
+                        <Link className={`${buttonVariants({ variant: "outline" })} text-lg`} href="/courses">Browse Courses</Link>
                     </div>
                 </div>
             </div>
